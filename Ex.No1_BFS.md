@@ -1,6 +1,6 @@
 # Ex.No: 1  Implementation of Breadth First Search 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 23.03.2024                                                                           
+### REGISTER NUMBER : 212221040181
 ### AIM: 
 To write a python program to implement Breadth first Search. 
 ### Algorithm:
@@ -13,6 +13,68 @@ To write a python program to implement Breadth first Search.
 7.   Call the bfs function by passing arguments visited, graph and starting node.
 8.   Stop the program.
 ### Program:
+```
+hypothesis (Patient, german_measles) :-
+
+symptom (Patient, fever),
+
+symptom (Patient, headache),
+
+symptom (Patient, runny_nose),
+
+symptom (Patient, rash).
+
+hypothesis (Patient, flu) :-
+
+symptom (Patient, fever),
+
+symptom (Patient, headache),
+
+symptom (Patient, body_ache),
+
+symptom (Patient, conjunctivitis),
+
+symptom (Patient, chills),
+
+symptom (Patient, sore_throat),
+
+symptom (Patient, runny_nose),
+
+symptom (Patient, cough).
+
+hypothesis (Patient, common_cold) :-
+
+symptom (Patient, headache),
+
+symptom (Patient, sneezing),
+
+symptom (Patient, sore_throat).
+
+hypothesis (Patient, chicken_pox) :-
+
+symptom (Patient, fever),
+
+symptom(Patient, chills),
+
+symptom(Patient, body_ache),
+
+symptom (Patient, rash).
+
+hypothesis (Patient, measles) :-
+
+symptom (Patient, cough),
+
+symptom(Patient, sneezing),
+
+symptom(Patient, runny_nose).
+
+symptom(raju, headache).
+
+symptom(raju, sneezing).
+
+symptom(raju, sore_throat).
+```
+
 
 
 
@@ -25,6 +87,8 @@ To write a python program to implement Breadth first Search.
 
 
 ### Output:
+![image](https://github.com/vishnupriya20052004/AI_Lab_2023-24/assets/133640291/53ff042a-30b5-49b2-9b2c-0b7756adbb98)
+
 
 
 
