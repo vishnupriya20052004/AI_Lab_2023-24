@@ -83,6 +83,6 @@ app = gr. Interface(fn=diabetes, inputs=
 app.launch(share=True
 ```
 ### Output:
-"C:\Users\hemav\OneDrive\Pictures\Screenshots\Screenshot 2024-05-07 191056.png"
+
 ### Result:
 Thus the system was trained successfully and the prediction was carried out.
